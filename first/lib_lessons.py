@@ -28,6 +28,7 @@ def learn_dict_29_ex3():
     if 'house' in d and 'True' in d and '5' in d:
         print("ДА")
 
+
 def learn_dict_29_ex4():
     str_inp = "лена=имя дон=река москва=город False=ложь 3=удовлетворительно True=истина"
     d = dict(i.split('=') for i in str_inp.split())

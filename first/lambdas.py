@@ -17,3 +17,4 @@ if __name__ == '__main__':
     # [print(e) for e in res if e % 5 == 0]
     a_dict = dict(a=3, b=2, d=1, c=4)
     print(sorted(a_dict.items(), key=lambda x: x[0]))
+    print((lambda x: x**3)(10))

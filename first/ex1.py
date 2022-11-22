@@ -5,4 +5,11 @@ def sum(a, b):
 
 
 if __name__ == '__main__':
-    print(math.pi)
+    x = int(input())
+    digits = []
+    while x:
+        digits = [x % 10] + digits
+        print(digits)
+        x = x // 10
+    print(*digits)
+
